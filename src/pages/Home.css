@@ -1,0 +1,16 @@
+/* home.css */
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center-content ion-item,
+.center-content ion-button,
+.center-content ion-text {
+    width: 80%;
+    max-width: 400px;
+    margin-top: 20px;
+}
